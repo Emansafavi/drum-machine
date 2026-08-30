@@ -1,0 +1,22 @@
+body{
+  background: #F5F1D3 none no-repeat scroll 0 0;
+  
+.drum-pad{
+   
+   border: 5px solid black;
+   border-bottom-color: red;
+   display: flex;
+   align-items: center;
+   width: 20px;
+   
+}
+.drum-pad-click{
+  
+   border: 5px solid black;
+   background-color: lightblue;
+   border-bottom-color: red;
+   display: flex;
+   align-items: center;
+   width: 20px;  
+}
+}
