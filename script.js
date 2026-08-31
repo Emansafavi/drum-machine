@@ -13,7 +13,7 @@ pads.forEach((pad) => {
   // picking the file name to display without the extention via a little regex showoff :)
   const fileName = decodeURIComponent(audio.src.split("/").pop())
   pad.id = fileName.replace(/\.[^/.]+$/,"")
-  pad.addEventListener("click", () => {
+  pad.addEventListener("pointerdown", () => {
     console.log("You clicked me!");
     triggerPad(pad);
     pad.classList.add("drum-pad-click");
